@@ -1,0 +1,12 @@
+Package: TDS.ERPs
+Type: Package
+Title: Analyze event-related electrophysiological data from the TDS data set
+Version: 0.0.0.9000
+Author: "Steven Ford <StevenFord@mail.usf.edu>""
+Description: Uses functions to analyze various aspects of the data set for the TDS study,
+    which was conducted by the Cognitive Electrophysiology and Clinical Neuroscience Lab
+    at the University of South Florida.  The data set uses event-related potentials to 
+    examine the impact of reward on visual attention. 
+License: CC0
+Encoding: UTF-8
+LazyData: true
