@@ -1,0 +1,37 @@
+---
+title: "M12 R Markdown"
+author: "Steven Ford"
+date: "3/25/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Example of how to create an R Markdown document
+
+This is an example of how to use R Markdown to create an html document.  
+For example, I can **MAKE TEXT BOLD** and use *italics* or ~~strikethrough~~ or even superscript^superscript^
+
+If I want to include code, I can use "```{}" to include code
+
+```{r my_data}
+a <- 5
+b <- 10
+c <- 15
+d <- 20
+my_data <- c(a,b,c,d)
+sum(my_data)
+mean(my_data)
+```
+
+## Including Plots
+
+It is also possible to embed plots.  For this, I used the made up data for "my_data" that I used above:
+
+```{r data, echo=TRUE}
+plot(my_data)
+```
+
+The `echo = TRUE` parameter was used so that the R code would be printed.
